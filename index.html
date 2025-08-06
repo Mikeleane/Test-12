@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <title>To Be - Affirmative</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- H5P Standalone CSS from CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css" />
+  <title> Your H5P Standalone Website Title </title>
+  <link type="text/css" rel="stylesheet" media="all" href="./dist/styles/h5p.css" />
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="./dist/main.bundle.js"></script>
 </head>
+
 <body>
-  <div class="h5p-container"></div>
-
-  <!-- H5P Standalone JS from CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/main.bundle.js"></script>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      new H5PStandalone(document.querySelector('.h5p-container'), {
-        h5pJsonPath: 'to-be-affirmative',
-        frameJs: 'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/frame.bundle.js',
-        frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css',
-      });
+  <div id="h5p-container"></div>
+  <script type="text/javascript">
+    const {
+      H5P
+    } = H5PStandalone;
+    new H5P(document.getElementById('h5p-container'), {
+      h5pJsonPath: 'h5p-folder',
+      frameJs: './dist/frame.bundle.js',
+      frameCss: './dist/styles/h5p.css'
     });
   </script>
 </body>
+
 </html>
