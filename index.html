@@ -5,24 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My H5P Activity</title>
 
-  <!-- Load the H5P Standalone library -->
+  <!-- Load the H5P Standalone player -->
   <script src="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/main.bundle.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css">
 </head>
 <body>
   <h1>Interactive H5P Activity</h1>
 
-  <!-- Container where the H5P content will render -->
+  <!-- Container where the H5P content will load -->
   <div id="h5p-container"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const options = {
-        h5pJsonPath: 'h5p-folder', // folder with h5p.json, content/, libraries/
+        h5pJsonPath: 'h5p-folder',
         frameJs: 'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/frame.bundle.js',
         frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css',
       };
 
       const el = document.getElementById('h5p-container');
+      console.log("✅ Loading H5P with options:", options);
       new H5PStandalone.H5P(el, options);
     });
   </script>
