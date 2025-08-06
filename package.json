@@ -9,6 +9,7 @@
     "start": "serve ."
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "serve": "^14.2.4"
   }
 }
