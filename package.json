@@ -9,5 +9,9 @@
   "scripts": {
     "start": "serve .",
     "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",      // you will see the actual version
+    "serve": "^14.2.0"         // or similar
   }
 }
