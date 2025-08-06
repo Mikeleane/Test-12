@@ -1,1 +1,50 @@
-{"embedTypes":["iframe"],"language":"en","defaultLanguage":"en","license":"U","extraTitle":"Comanda De Bebidas","title":"Comanda De Bebidas","mainLibrary":"H5P.SpeakTheWordsSet","preloadedDependencies":[{"machineName":"H5P.Video","majorVersion":1,"minorVersion":6},{"machineName":"H5P.SpeakTheWords","majorVersion":1,"minorVersion":5},{"machineName":"H5P.Question","majorVersion":1,"minorVersion":5},{"machineName":"FontAwesome","majorVersion":4,"minorVersion":5},{"machineName":"H5P.JoubelUI","majorVersion":1,"minorVersion":3},{"machineName":"H5P.Transition","majorVersion":1,"minorVersion":0},{"machineName":"H5P.FontIcons","majorVersion":1,"minorVersion":0},{"machineName":"H5P.SpeakTheWordsSet","majorVersion":1,"minorVersion":3}]}
+{
+  "title": "My H5P Video Activity",
+  "language": "en",
+  "mainLibrary": "H5P.Video",
+  "embedTypes": ["div"],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.Video",
+      "majorVersion": 1,
+      "minorVersion": 6,
+      "path": "libraries/H5P.Video-1.6"
+    },
+    {
+      "machineName": "H5P.JoubelUI",
+      "majorVersion": 1,
+      "minorVersion": 3,
+      "path": "libraries/H5P.JoubelUI-1.3"
+    },
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5,
+      "path": "libraries/FontAwesome-4.5"
+    },
+    {
+      "machineName": "H5P.FontIcons",
+      "majorVersion": 1,
+      "minorVersion": 0,
+      "path": "libraries/H5P.FontIcons-1.0"
+    },
+    {
+      "machineName": "H5PEditor.RangeList",
+      "majorVersion": 1,
+      "minorVersion": 0,
+      "path": "libraries/H5PEditor.RangeList-1.0"
+    },
+    {
+      "machineName": "H5PEditor.ShowWhen",
+      "majorVersion": 1,
+      "minorVersion": 0,
+      "path": "libraries/H5PEditor.ShowWhen-1.0"
+    },
+    {
+      "machineName": "H5PEditor.VerticalTabs",
+      "majorVersion": 1,
+      "minorVersion": 3,
+      "path": "libraries/H5PEditor.VerticalTabs-1.3"
+    }
+  ]
+}
