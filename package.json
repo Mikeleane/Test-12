@@ -5,10 +5,9 @@
   "repository": "https://github.com/Mikeleane/Test-12.git",
   "author": "Mikeleane <servilingual@gmail.com>",
   "license": "MIT",
+  "homepage": "https://Mikeleane.github.io/Test-12",
   "scripts": {
-    "start": "serve ."
-  },
-  "devDependencies": {
-    "serve": "^14.2.4"
+    "start": "serve .",
+    "deploy": "gh-pages -d ."
   }
 }
