@@ -1,5 +1,5 @@
 {
-  "title": "My H5P Video Activity",
+  "title": "My H5P Activity",
   "language": "en",
   "mainLibrary": "H5P.Video",
   "embedTypes": ["div"],
@@ -48,3 +48,4 @@
     }
   ]
 }
+
