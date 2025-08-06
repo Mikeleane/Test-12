@@ -5,4 +5,8 @@
   "repository": "https://github.com/Mikeleane/Test-12.git",
   "author": "Mikeleane <servilingual@gmail.com>",
   "license": "MIT"
+  "scripts": {
+  "start": "serve ."
+}
+
 }
