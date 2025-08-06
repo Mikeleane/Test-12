@@ -1,21 +1,9 @@
 {
-  "title": "My H5P Activity",
+  "title": "My H5P Video Activity",
   "language": "en",
   "mainLibrary": "H5P.Video",
   "embedTypes": ["div"],
   "preloadedDependencies": [
-    {
-      "machineName": "H5P.Video",
-      "majorVersion": 1,
-      "minorVersion": 6,
-      "path": "libraries/H5P.Video-1.6"
-    },
-    {
-      "machineName": "H5P.JoubelUI",
-      "majorVersion": 1,
-      "minorVersion": 3,
-      "path": "libraries/H5P.JoubelUI-1.3"
-    },
     {
       "machineName": "FontAwesome",
       "majorVersion": 4,
@@ -29,6 +17,42 @@
       "path": "libraries/H5P.FontIcons-1.0"
     },
     {
+      "machineName": "H5P.JoubelUI",
+      "majorVersion": 1,
+      "minorVersion": 3,
+      "path": "libraries/H5P.JoubelUI-1.3"
+    },
+    {
+      "machineName": "H5P.Question",
+      "majorVersion": 1,
+      "minorVersion": 5,
+      "path": "libraries/H5P.Question-1.5"
+    },
+    {
+      "machineName": "H5P.SpeakTheWords",
+      "majorVersion": 1,
+      "minorVersion": 5,
+      "path": "libraries/H5P.SpeakTheWords-1.5"
+    },
+    {
+      "machineName": "H5P.SpeakTheWordsSet",
+      "majorVersion": 1,
+      "minorVersion": 3,
+      "path": "libraries/H5P.SpeakTheWordsSet-1.3"
+    },
+    {
+      "machineName": "H5P.Transition",
+      "majorVersion": 1,
+      "minorVersion": 0,
+      "path": "libraries/H5P.Transition-1.0"
+    },
+    {
+      "machineName": "H5P.Video",
+      "majorVersion": 1,
+      "minorVersion": 6,
+      "path": "libraries/H5P.Video-1.6"
+    },
+    {
       "machineName": "H5PEditor.RangeList",
       "majorVersion": 1,
       "minorVersion": 0,
@@ -39,6 +63,12 @@
       "majorVersion": 1,
       "minorVersion": 0,
       "path": "libraries/H5PEditor.ShowWhen-1.0"
+    },
+    {
+      "machineName": "H5PEditor.TableList",
+      "majorVersion": 1,
+      "minorVersion": 0,
+      "path": "libraries/H5PEditor.TableList-1.0"
     },
     {
       "machineName": "H5PEditor.VerticalTabs",
