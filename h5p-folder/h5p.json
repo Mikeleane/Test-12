@@ -1,7 +1,7 @@
 {
   "title": "My H5P Video Activity",
   "language": "en",
-  "mainLibrary": "H5P.Video",
+  "mainLibrary": "H5P.SpeakTheWordsSet",
   "embedTypes": ["div"],
 "preloadedDependencies": [
   { "machineName": "FontAwesome", "majorVersion": 4, "minorVersion": 5, "path": "FontAwesome-4.5" },
