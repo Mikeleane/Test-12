@@ -52,24 +52,7 @@
       "minorVersion": 6,
       "path": "libraries/H5P.Video-1.6"
     },
-    {
-      "machineName": "H5PEditor.RangeList",
-      "majorVersion": 1,
-      "minorVersion": 0,
-      "path": "libraries/H5PEditor.RangeList-1.0"
-    },
-    {
-      "machineName": "H5PEditor.TableList",
-      "majorVersion": 1,
-      "minorVersion": 0,
-      "path": "libraries/H5PEditor.TableList-1.0"
-    },
-    {
-      "machineName": "H5PEditor.VerticalTabs",
-      "majorVersion": 1,
-      "minorVersion": 3,
-      "path": "libraries/H5PEditor.VerticalTabs-1.3"
-    }
+ 
   ]
 }
 
