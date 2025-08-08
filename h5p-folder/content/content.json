@@ -70,7 +70,7 @@
       "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Comanda De Bebidas", "authors": [], "changes": [], "extraTitle": "Comanda De Bebidas" },
       "subContentId": "8dffff8f-719d-4036-b71f-7060f57cd77d"
     },
-        {
+    {
       "params": {
         "media": {
           "disableImageZooming": false,
@@ -526,4 +526,3 @@
     "activeSlideAriaLabel": "Currently active"
   }
 }
-
