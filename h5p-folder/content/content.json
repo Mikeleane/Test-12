@@ -9,14 +9,8 @@
           "disableImageZooming": false,
           "type": {
             "params": {
-              "visuals": {
-                "fit": true,
-                "controls": true
-              },
-              "playback": {
-                "autoplay": false,
-                "loop": false
-              },
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -36,22 +30,13 @@
                 {
                   "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-_fu8Wv14I6-OS1nZ.mp4",
                   "mime": "video/mp4",
-                  "copyright": {
-                    "license": "U"
-                  }
+                  "copyright": { "license": "U" }
                 }
               ],
               "preload": "none"
             },
             "library": "H5P.Video 1.6",
-            "metadata": {
-              "contentType": "Video",
-              "license": "U",
-              "title": "Untitled Video",
-              "authors": [],
-              "changes": [],
-              "extraTitle": "Untitled Video"
-            },
+            "metadata": { "contentType": "Video", "license": "U", "title": "Untitled Video", "authors": [], "changes": [], "extraTitle": "Untitled Video" },
             "subContentId": "d5350e9a-6555-4156-a243-6aaf8d3c1e48"
           }
         },
@@ -72,19 +57,10 @@
           "a11yRetry": "Retry the task. Reset all responses and start the task over again."
         },
         "question": "Good Afternoon",
-        "acceptedAnswers": [
-          "Good Afternoon"
-        ]
+        "acceptedAnswers": ["Good Afternoon"]
       },
       "library": "H5P.SpeakTheWords 1.5",
-      "metadata": {
-        "contentType": "Speak the Words",
-        "license": "U",
-        "title": "Comanda De Bebidas",
-        "authors": [],
-        "changes": [],
-        "extraTitle": "Comanda De Bebidas"
-      },
+      "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Comanda De Bebidas", "authors": [], "changes": [], "extraTitle": "Comanda De Bebidas" },
       "subContentId": "8dffff8f-719d-4036-b71f-7060f57cd77d"
     },
     {
@@ -92,14 +68,8 @@
         "media": {
           "type": {
             "params": {
-              "visuals": {
-                "fit": true,
-                "controls": true
-              },
-              "playback": {
-                "autoplay": false,
-                "loop": false
-              },
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -119,22 +89,13 @@
                 {
                   "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-tI67EAmejySxdo3M.mp4",
                   "mime": "video/mp4",
-                  "copyright": {
-                    "license": "U"
-                  }
+                  "copyright": { "license": "U" }
                 }
               ],
               "preload": "none"
             },
             "library": "H5P.Video 1.6",
-            "metadata": {
-              "contentType": "Video",
-              "license": "U",
-              "title": "Untitled Video",
-              "authors": [],
-              "changes": [],
-              "extraTitle": "Untitled Video"
-            },
+            "metadata": { "contentType": "Video", "license": "U", "title": "Untitled Video", "authors": [], "changes": [], "extraTitle": "Untitled Video" },
             "subContentId": "dc6796e8-a056-4cb6-aa80-62daf107a827"
           },
           "disableImageZooming": false
@@ -156,35 +117,19 @@
           "a11yRetry": "Retry the task. Reset all responses and start the task over again."
         },
         "question": "I'll be your server.",
-        "acceptedAnswers": [
-          "I'll be your server",
-          "I will be your server."
-        ]
+        "acceptedAnswers": ["I'll be your server", "I will be your server."]
       },
       "library": "H5P.SpeakTheWords 1.5",
       "subContentId": "4ac7e8e6-8a91-40ab-8564-1ba3e3b1067f",
-      "metadata": {
-        "contentType": "Speak the Words",
-        "license": "U",
-        "title": "Untitled Speak the Words",
-        "authors": [],
-        "changes": [],
-        "extraTitle": "Untitled Speak the Words"
-      }
+      "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Untitled Speak the Words", "authors": [], "changes": [], "extraTitle": "Untitled Speak the Words" }
     },
     {
       "params": {
         "media": {
           "type": {
             "params": {
-              "visuals": {
-                "fit": true,
-                "controls": true
-              },
-              "playback": {
-                "autoplay": false,
-                "loop": false
-              },
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -204,22 +149,13 @@
                 {
                   "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-gDXyNp5bNVRN4Bft.mp4",
                   "mime": "video/mp4",
-                  "copyright": {
-                    "license": "U"
-                  }
+                  "copyright": { "license": "U" }
                 }
               ],
               "preload": "none"
             },
             "library": "H5P.Video 1.6",
-            "metadata": {
-              "contentType": "Video",
-              "license": "U",
-              "title": "Untitled Video",
-              "authors": [],
-              "changes": [],
-              "extraTitle": "Untitled Video"
-            },
+            "metadata": { "contentType": "Video", "license": "U", "title": "Untitled Video", "authors": [], "changes": [], "extraTitle": "Untitled Video" },
             "subContentId": "1f06eec8-73ce-45d8-b19b-84e1ec515a68"
           },
           "disableImageZooming": false
@@ -241,20 +177,11 @@
           "a11yRetry": "Retry the task. Reset all responses and start the task over again."
         },
         "question": "Would you like something to drink?",
-        "acceptedAnswers": [
-          "Would you like something to drink"
-        ]
+        "acceptedAnswers": ["Would you like something to drink"]
       },
       "library": "H5P.SpeakTheWords 1.5",
       "subContentId": "b108f131-2560-44b2-8ade-a896254da3c2",
-      "metadata": {
-        "contentType": "Speak the Words",
-        "license": "U",
-        "title": "Untitled Speak the Words",
-        "authors": [],
-        "changes": [],
-        "extraTitle": "Untitled Speak the Words"
-      }
+      "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Untitled Speak the Words", "authors": [], "changes": [], "extraTitle": "Untitled Speak the Words" }
     }
 ,
     {
@@ -263,7 +190,7 @@
           "type": {
             "params": {
               "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false, "preload": "none" },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -285,17 +212,11 @@
                   "mime": "video/mp4",
                   "copyright": { "license": "U" }
                 }
-              ]
+              ],
+              "preload": "none"
             },
             "library": "H5P.Video 1.6",
-            "metadata": {
-              "contentType": "Video",
-              "license": "U",
-              "title": "Untitled Video",
-              "authors": [],
-              "changes": [],
-              "extraTitle": "Untitled Video"
-            },
+            "metadata": { "contentType": "Video", "license": "U", "title": "Untitled Video", "authors": [], "changes": [], "extraTitle": "Untitled Video" },
             "subContentId": "aa64cdf5-ab9a-49a0-ad5b-a2af588994b6"
           },
           "disableImageZooming": false
@@ -321,14 +242,7 @@
       },
       "library": "H5P.SpeakTheWords 1.5",
       "subContentId": "7cbd7254-4bad-468b-9bae-0743f53d2f9a",
-      "metadata": {
-        "contentType": "Speak the Words",
-        "license": "U",
-        "title": "Untitled Speak the Words",
-        "authors": [],
-        "changes": [],
-        "extraTitle": "Untitled Speak the Words"
-      }
+      "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Untitled Speak the Words", "authors": [], "changes": [], "extraTitle": "Untitled Speak the Words" }
     },
     {
       "params": {
@@ -336,7 +250,7 @@
           "type": {
             "params": {
               "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false, "preload": "none" },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -358,17 +272,11 @@
                   "mime": "video/mp4",
                   "copyright": { "license": "U" }
                 }
-              ]
+              ],
+              "preload": "none"
             },
             "library": "H5P.Video 1.6",
-            "metadata": {
-              "contentType": "Video",
-              "license": "U",
-              "title": "Untitled Video",
-              "authors": [],
-              "changes": [],
-              "extraTitle": "Untitled Video"
-            },
+            "metadata": { "contentType": "Video", "license": "U", "title": "Untitled Video", "authors": [], "changes": [], "extraTitle": "Untitled Video" },
             "subContentId": "d2fe1248-ad18-43c3-9cfa-4947df5f891a"
           },
           "disableImageZooming": false
@@ -394,14 +302,7 @@
       },
       "library": "H5P.SpeakTheWords 1.5",
       "subContentId": "7c4560e1-091e-486f-89b1-d3f38c2e4121",
-      "metadata": {
-        "contentType": "Speak the Words",
-        "license": "U",
-        "title": "Untitled Speak the Words",
-        "authors": [],
-        "changes": [],
-        "extraTitle": "Untitled Speak the Words"
-      }
+      "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Untitled Speak the Words", "authors": [], "changes": [], "extraTitle": "Untitled Speak the Words" }
     },
     {
       "params": {
@@ -409,7 +310,7 @@
           "type": {
             "params": {
               "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false, "preload": "none" },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -431,17 +332,11 @@
                   "mime": "video/mp4",
                   "copyright": { "license": "U" }
                 }
-              ]
+              ],
+              "preload": "none"
             },
             "library": "H5P.Video 1.6",
-            "metadata": {
-              "contentType": "Video",
-              "license": "U",
-              "title": "Untitled Video",
-              "authors": [],
-              "changes": [],
-              "extraTitle": "Untitled Video"
-            },
+            "metadata": { "contentType": "Video", "license": "U", "title": "Untitled Video", "authors": [], "changes": [], "extraTitle": "Untitled Video" },
             "subContentId": "079291ab-9e93-457b-8c91-8ecffbcc6555"
           },
           "disableImageZooming": false
@@ -467,23 +362,15 @@
       },
       "library": "H5P.SpeakTheWords 1.5",
       "subContentId": "8935b8b6-890a-4af1-9210-27303678dcf1",
-      "metadata": {
-        "contentType": "Speak the Words",
-        "license": "U",
-        "title": "Untitled Speak the Words",
-        "authors": [],
-        "changes": [],
-        "extraTitle": "Untitled Speak the Words"
-      }
+      "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Untitled Speak the Words", "authors": [], "changes": [], "extraTitle": "Untitled Speak the Words" }
     }
-,
     {
       "params": {
         "media": {
           "type": {
             "params": {
               "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false, "preload": "none" },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -505,7 +392,8 @@
                   "mime": "video/mp4",
                   "copyright": { "license": "U" }
                 }
-              ]
+              ],
+              "preload": "none"
             },
             "library": "H5P.Video 1.6",
             "metadata": {
@@ -556,7 +444,7 @@
           "type": {
             "params": {
               "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false, "preload": "none" },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -578,7 +466,8 @@
                   "mime": "video/mp4",
                   "copyright": { "license": "U" }
                 }
-              ]
+              ],
+              "preload": "none"
             },
             "library": "H5P.Video 1.6",
             "metadata": {
@@ -629,7 +518,7 @@
           "type": {
             "params": {
               "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false, "preload": "none" },
+              "playback": { "autoplay": false, "loop": false },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -651,7 +540,8 @@
                   "mime": "video/mp4",
                   "copyright": { "license": "U" }
                 }
-              ]
+              ],
+              "preload": "none"
             },
             "library": "H5P.Video 1.6",
             "metadata": {
