@@ -13,188 +13,196 @@
     { "machineName": "H5P.Transition", "majorVersion": 1, "minorVersion": 0 },
     { "machineName": "H5P.Video", "majorVersion": 1, "minorVersion": 6 }
   ],
-  "introduction": { "showIntroPage": false },
-  "questions": [
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-_fu8Wv14I6-OS1nZ.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "Good Afternoon",
-        "acceptedAnswers": ["Good Afternoon"]
+  "params": {
+    "introduction": { "showIntroPage": false },
+    "questions": [
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-_fu8Wv14I6-OS1nZ.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "Good Afternoon",
+          "acceptedAnswers": ["Good Afternoon"]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-tI67EAmejySxdo3M.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "I'll be your server.",
-        "acceptedAnswers": ["I'll be your server", "I will be your server."]
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-tI67EAmejySxdo3M.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "I'll be your server.",
+          "acceptedAnswers": ["I'll be your server", "I will be your server."]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-gDXyNp5bNVRN4Bft.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "Would you like something to drink?",
-        "acceptedAnswers": ["Would you like something to drink"]
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-gDXyNp5bNVRN4Bft.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "Would you like something to drink?",
+          "acceptedAnswers": ["Would you like something to drink"]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-TXoTYcAPjlglMu7Y.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "Can I start you off with a drink?",
-        "acceptedAnswers": ["Can I start you off with a drink"]
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-TXoTYcAPjlglMu7Y.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "Can I start you off with a drink?",
+          "acceptedAnswers": ["Can I start you off with a drink"]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-OExBvcNHM6qBhaIq.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "What would you like to drink?",
-        "acceptedAnswers": ["What would you like to drink"]
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-OExBvcNHM6qBhaIq.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "What would you like to drink?",
+          "acceptedAnswers": ["What would you like to drink"]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-rZqEanrNd5mBBkWA.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "We have a variety of drinks",
-        "acceptedAnswers": ["We have a variety of drinks"]
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-rZqEanrNd5mBBkWA.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "We have a variety of drinks",
+          "acceptedAnswers": ["We have a variety of drinks"]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-6kKAgGcboDiz7U49.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "May I recommend a drink?",
-        "acceptedAnswers": ["May I recommend a drink"]
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-6kKAgGcboDiz7U49.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "May I recommend a drink?",
+          "acceptedAnswers": ["May I recommend a drink"]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-AoWOEHejJvFctvlF.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "Would you like to see our drinks menu?",
-        "acceptedAnswers": ["Would you like to see our drinks menu"]
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-AoWOEHejJvFctvlF.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "Would you like to see our drinks menu?",
+          "acceptedAnswers": ["Would you like to see our drinks menu"]
+        }
       },
-      "library": "H5P.SpeakTheWords 1.5"
-    },
-    {
-      "params": {
-        "media": {
-          "type": {
-            "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-_Nzc2uf3RD2LCUGm.mp4", "mime": "video/mp4" }
-              ],
-              "preload": "none"
-            },
-            "library": "H5P.Video 1.6"
-          }
-        },
-        "question": "Are you ready to order drinks?",
-        "acceptedAnswers": ["Are you ready to order drinks"]
-      },
-      "library": "H5P.SpeakTheWords 1.5"
+      {
+        "library": "H5P.SpeakTheWords 1.5",
+        "params": {
+          "media": {
+            "type": {
+              "library": "H5P.Video 1.6",
+              "params": {
+                "visuals": { "fit": true, "controls": true },
+                "playback": { "autoplay": false, "loop": false },
+                "sources": [
+                  { "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-_Nzc2uf3RD2LCUGm.mp4", "mime": "video/mp4" }
+                ],
+                "preload": "none"
+              }
+            }
+          },
+          "question": "Are you ready to order drinks?",
+          "acceptedAnswers": ["Are you ready to order drinks"]
+        }
+      }
+    ],
+    "overallFeedback": [{ "from": 0, "to": 100 }],
+    "l10n": {
+      "introductionButtonLabel": "Start Course!",
+      "solutionScreenResultsLabel": "Your results:",
+      "showSolutionsButtonLabel": "Show solution",
+      "retryButtonLabel": "Retry"
     }
-  ],
-  "overallFeedback": [{ "from": 0, "to": 100 }]
+  }
 }
