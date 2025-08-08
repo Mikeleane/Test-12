@@ -1,18 +1,4 @@
 {
-  "title": "My H5P Speak The Words Set Activity",
-  "language": "en",
-  "mainLibrary": "H5P.SpeakTheWordsSet",
-  "embedTypes": ["div"],
-  "preloadedDependencies": [
-    { "machineName": "FontAwesome", "majorVersion": 4, "minorVersion": 5 },
-    { "machineName": "H5P.FontIcons", "majorVersion": 1, "minorVersion": 0 },
-    { "machineName": "H5P.JoubelUI", "majorVersion": 1, "minorVersion": 3 },
-    { "machineName": "H5P.Question", "majorVersion": 1, "minorVersion": 5 },
-    { "machineName": "H5P.SpeakTheWords", "majorVersion": 1, "minorVersion": 5 },
-    { "machineName": "H5P.SpeakTheWordsSet", "majorVersion": 1, "minorVersion": 3 },
-    { "machineName": "H5P.Transition", "majorVersion": 1, "minorVersion": 0 },
-    { "machineName": "H5P.Video", "majorVersion": 1, "minorVersion": 6 }
-  ],
   "introduction": {
     "showIntroPage": false
   },
@@ -23,8 +9,14 @@
           "disableImageZooming": false,
           "type": {
             "params": {
-              "visuals": { "fit": true, "controls": true },
-              "playback": { "autoplay": false, "loop": false },
+              "visuals": {
+                "fit": true,
+                "controls": true
+              },
+              "playback": {
+                "autoplay": false,
+                "loop": false
+              },
               "l10n": {
                 "name": "Video",
                 "loading": "Video player loading...",
@@ -42,9 +34,11 @@
               },
               "sources": [
                 {
-                  "path": "videos/file-_fu8Wv14I6-OS1nZ.mp4",
+                  "path": "https://mikeleane.github.io/Test-12/h5p-folder/content/videos/file-_fu8Wv14I6-OS1nZ.mp4",
                   "mime": "video/mp4",
-                  "copyright": { "license": "U" }
+                  "copyright": {
+                    "license": "U"
+                  }
                 }
               ]
             },
@@ -92,7 +86,10 @@
     }
   ],
   "overallFeedback": [
-    { "from": 0, "to": 100 }
+    {
+      "from": 0,
+      "to": 100
+    }
   ],
   "l10n": {
     "introductionButtonLabel": "Start Course!",
