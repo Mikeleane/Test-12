@@ -1,0 +1,280 @@
+﻿{
+    "introduction":  {
+                         "showIntroPage":  false
+                     },
+    "questions":  [
+                      {
+                          "library":  "H5P.SpeakTheWords 1.5",
+                          "subContentId":  "8dffff8f-719d-4036-b71f-7060f57cd77d",
+                          "params":  {
+                                         "media":  {
+                                                       "type":  {
+                                                                    "library":  "H5P.Video 1.6",
+                                                                    "subContentId":  "d5350e9a-6555-4156-a243-6aaf8d3c1e48",
+                                                                    "params":  {
+                                                                                   "visuals":  {
+                                                                                                   "fit":  true,
+                                                                                                   "controls":  true
+                                                                                               },
+                                                                                   "playback":  {
+                                                                                                    "autoplay":  false,
+                                                                                                    "loop":  false
+                                                                                                },
+                                                                                   "sources":  [
+                                                                                                   {
+                                                                                                       "path":  "videos/file-_fu8Wv14I6-OS1nZ-opt.mp4",
+                                                                                                       "mime":  "video/mp4"
+                                                                                                   }
+                                                                                               ],
+                                                                                   "preload":  "none"
+                                                                               }
+                                                                }
+                                                   },
+                                         "question":  "Good Afternoon",
+                                         "acceptedAnswers":  [
+                                                                 "Good Afternoon",
+                                                                 "good afternoon"
+                                                             ],
+                                         "inputLanguage":  "en-GB",
+                                         "incorrectAnswerText":  "Incorrect answer",
+                                         "correctAnswerText":  "Correct answer",
+                                         "l10n":  {
+                                                      "retryLabel":  "Retry",
+                                                      "showSolutionLabel":  "Show solution",
+                                                      "speakLabel":  "Push to speak",
+                                                      "listeningLabel":  "Listening...",
+                                                      "correctAnswersText":  "The correct answer(s):",
+                                                      "userAnswersText":  "Your answer(s) was interpreted as:",
+                                                      "noSound":  "I could not hear you, make sure your microphone is enabled",
+                                                      "unsupportedBrowserHeader":  "It looks like your browser does not support speech recognition",
+                                                      "unsupportedBrowserDetails":  "Please try again in a browser like Chrome",
+                                                      "a11yShowSolution":  "Show the solution. The task will be marked with its correct solution.",
+                                                      "a11yRetry":  "Retry the task. Reset all responses and start the task over again."
+                                                  }
+                                     }
+                      },
+                      {
+                          "library":  "H5P.SpeakTheWords 1.5",
+                          "subContentId":  "4ac7e8e6-8a91-40ab-8564-1ba3e3b1067f",
+                          "params":  {
+                                         "media":  {
+                                                       "type":  {
+                                                                    "library":  "H5P.Video 1.6",
+                                                                    "subContentId":  "dc6796e8-a056-4cb6-aa80-62daf107a827",
+                                                                    "params":  {
+                                                                                   "visuals":  {
+                                                                                                   "fit":  true,
+                                                                                                   "controls":  true
+                                                                                               },
+                                                                                   "playback":  {
+                                                                                                    "autoplay":  false,
+                                                                                                    "loop":  false
+                                                                                                },
+                                                                                   "sources":  [
+                                                                                                   {
+                                                                                                       "path":  "videos/file-tI67EAmejySxdo3M-opt.mp4",
+                                                                                                       "mime":  "video/mp4"
+                                                                                                   }
+                                                                                               ],
+                                                                                   "preload":  "none"
+                                                                               }
+                                                                }
+                                                   },
+                                         "question":  "I\u0027ll be your server.",
+                                         "acceptedAnswers":  [
+                                                                 "I\u0027ll be your server.",
+                                                                 "I\u0027ll be your server",
+                                                                 "I will be your server",
+                                                                 "i\u0027ll be your server",
+                                                                 "i will be your server"
+                                                             ],
+                                         "inputLanguage":  "en-GB",
+                                         "incorrectAnswerText":  "Incorrect answer",
+                                         "correctAnswerText":  "Correct answer",
+                                         "l10n":  {
+                                                      "retryLabel":  "Retry",
+                                                      "showSolutionLabel":  "Show solution",
+                                                      "speakLabel":  "Push to speak",
+                                                      "listeningLabel":  "Listening...",
+                                                      "correctAnswersText":  "The correct answer(s):",
+                                                      "userAnswersText":  "Your answer(s) was interpreted as:",
+                                                      "noSound":  "I could not hear you, make sure your microphone is enabled",
+                                                      "unsupportedBrowserHeader":  "It looks like your browser does not support speech recognition",
+                                                      "unsupportedBrowserDetails":  "Please try again in a browser like Chrome",
+                                                      "a11yShowSolution":  "Show the solution. The task will be marked with its correct solution.",
+                                                      "a11yRetry":  "Retry the task. Reset all responses and start the task over again."
+                                                  }
+                                     }
+                      },
+                      {
+                          "library":  "H5P.SpeakTheWords 1.5",
+                          "subContentId":  "b108f131-2560-44b2-8ade-a896254da3c2",
+                          "params":  {
+                                         "media":  {
+                                                       "type":  {
+                                                                    "library":  "H5P.Video 1.6",
+                                                                    "subContentId":  "1f06eec8-73ce-45d8-b19b-84e1ec515a68",
+                                                                    "params":  {
+                                                                                   "visuals":  {
+                                                                                                   "fit":  true,
+                                                                                                   "controls":  true
+                                                                                               },
+                                                                                   "playback":  {
+                                                                                                    "autoplay":  false,
+                                                                                                    "loop":  false
+                                                                                                },
+                                                                                   "sources":  [
+                                                                                                   {
+                                                                                                       "path":  "videos/file-gDXyNp5bNVRN4Bft-opt.mp4",
+                                                                                                       "mime":  "video/mp4"
+                                                                                                   }
+                                                                                               ],
+                                                                                   "preload":  "none"
+                                                                               }
+                                                                }
+                                                   },
+                                         "question":  "Would you like something to drink?",
+                                         "acceptedAnswers":  [
+                                                                 "Would you like something to drink?",
+                                                                 "Would you like something to drink",
+                                                                 "would you like something to drink"
+                                                             ],
+                                         "inputLanguage":  "en-GB",
+                                         "incorrectAnswerText":  "Incorrect answer",
+                                         "correctAnswerText":  "Correct answer",
+                                         "l10n":  {
+                                                      "retryLabel":  "Retry",
+                                                      "showSolutionLabel":  "Show solution",
+                                                      "speakLabel":  "Push to speak",
+                                                      "listeningLabel":  "Listening...",
+                                                      "correctAnswersText":  "The correct answer(s):",
+                                                      "userAnswersText":  "Your answer(s) was interpreted as:",
+                                                      "noSound":  "I could not hear you, make sure your microphone is enabled",
+                                                      "unsupportedBrowserHeader":  "It looks like your browser does not support speech recognition",
+                                                      "unsupportedBrowserDetails":  "Please try again in a browser like Chrome",
+                                                      "a11yShowSolution":  "Show the solution. The task will be marked with its correct solution.",
+                                                      "a11yRetry":  "Retry the task. Reset all responses and start the task over again."
+                                                  }
+                                     }
+                      },
+                      {
+                          "library":  "H5P.SpeakTheWords 1.5",
+                          "subContentId":  "7cbd7254-4bad-468b-9bae-0743f53d2f9a",
+                          "params":  {
+                                         "media":  {
+                                                       "type":  {
+                                                                    "library":  "H5P.Video 1.6",
+                                                                    "subContentId":  "aa64cdf5-ab9a-49a0-ad5b-a2af588994b6",
+                                                                    "params":  {
+                                                                                   "visuals":  {
+                                                                                                   "fit":  true,
+                                                                                                   "controls":  true
+                                                                                               },
+                                                                                   "playback":  {
+                                                                                                    "autoplay":  false,
+                                                                                                    "loop":  false
+                                                                                                },
+                                                                                   "sources":  [
+                                                                                                   {
+                                                                                                       "path":  "videos/file-TXoTYcAPjlglMu7Y-opt.mp4",
+                                                                                                       "mime":  "video/mp4"
+                                                                                                   }
+                                                                                               ],
+                                                                                   "preload":  "none"
+                                                                               }
+                                                                }
+                                                   },
+                                         "question":  "Can I start you off with a drink?",
+                                         "acceptedAnswers":  [
+                                                                 "Can I start you off with a drink?",
+                                                                 "Can I start you off with a drink",
+                                                                 "can i start you off with a drink"
+                                                             ],
+                                         "inputLanguage":  "en-GB",
+                                         "incorrectAnswerText":  "Incorrect answer",
+                                         "correctAnswerText":  "Correct answer",
+                                         "l10n":  {
+                                                      "retryLabel":  "Retry",
+                                                      "showSolutionLabel":  "Show solution",
+                                                      "speakLabel":  "Push to speak",
+                                                      "listeningLabel":  "Listening...",
+                                                      "correctAnswersText":  "The correct answer(s):",
+                                                      "userAnswersText":  "Your answer(s) was interpreted as:",
+                                                      "noSound":  "I could not hear you, make sure your microphone is enabled",
+                                                      "unsupportedBrowserHeader":  "It looks like your browser does not support speech recognition",
+                                                      "unsupportedBrowserDetails":  "Please try again in a browser like Chrome",
+                                                      "a11yShowSolution":  "Show the solution. The task will be marked with its correct solution.",
+                                                      "a11yRetry":  "Retry the task. Reset all responses and start the task over again."
+                                                  }
+                                     }
+                      },
+                      {
+                          "library":  "H5P.SpeakTheWords 1.5",
+                          "subContentId":  "7c4560e1-091e-486f-89b1-d3f38c2e4121",
+                          "params":  {
+                                         "media":  {
+                                                       "type":  {
+                                                                    "library":  "H5P.Video 1.6",
+                                                                    "subContentId":  "d2fe1248-ad18-43c3-9cfa-4947df5f891a",
+                                                                    "params":  {
+                                                                                   "visuals":  {
+                                                                                                   "fit":  true,
+                                                                                                   "controls":  true
+                                                                                               },
+                                                                                   "playback":  {
+                                                                                                    "autoplay":  false,
+                                                                                                    "loop":  false
+                                                                                                },
+                                                                                   "sources":  [
+                                                                                                   {
+                                                                                                       "path":  "videos/file-OExBvcNHM6qBhaIq-opt.mp4",
+                                                                                                       "mime":  "video/mp4"
+                                                                                                   }
+                                                                                               ],
+                                                                                   "preload":  "none"
+                                                                               }
+                                                                }
+                                                   },
+                                         "question":  "What would you like to drink?",
+                                         "acceptedAnswers":  [
+                                                                 "What would you like to drink?",
+                                                                 "What would you like to drink",
+                                                                 "what would you like to drink"
+                                                             ],
+                                         "inputLanguage":  "en-GB",
+                                         "incorrectAnswerText":  "Incorrect answer",
+                                         "correctAnswerText":  "Correct answer",
+                                         "l10n":  {
+                                                      "retryLabel":  "Retry",
+                                                      "showSolutionLabel":  "Show solution",
+                                                      "speakLabel":  "Push to speak",
+                                                      "listeningLabel":  "Listening...",
+                                                      "correctAnswersText":  "The correct answer(s):",
+                                                      "userAnswersText":  "Your answer(s) was interpreted as:",
+                                                      "noSound":  "I could not hear you, make sure your microphone is enabled",
+                                                      "unsupportedBrowserHeader":  "It looks like your browser does not support speech recognition",
+                                                      "unsupportedBrowserDetails":  "Please try again in a browser like Chrome",
+                                                      "a11yShowSolution":  "Show the solution. The task will be marked with its correct solution.",
+                                                      "a11yRetry":  "Retry the task. Reset all responses and start the task over again."
+                                                  }
+                                     }
+                      }
+                  ],
+    "overallFeedback":  [
+                            {
+                                "from":  0,
+                                "to":  100
+                            }
+                        ],
+    "l10n":  {
+                 "introductionButtonLabel":  "Start Course!",
+                 "solutionScreenResultsLabel":  "Your results:",
+                 "showSolutionsButtonLabel":  "Show solution",
+                 "retryButtonLabel":  "Retry",
+                 "nextQuestionAriaLabel":  "Next question",
+                 "previousQuestionAriaLabel":  "Previous question",
+                 "navigationBarTitle":  "Slide :num",
+                 "answeredSlideAriaLabel":  "Answered",
+                 "activeSlideAriaLabel":  "Currently active"
+             }
+}
