@@ -2,31 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My H5P Activity</title>
 
-  <!-- Load the H5P Standalone player -->
-  <script src="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/main.bundle.js"></script>
+  <!-- H5P Standalone (recommended bundle) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css">
+  <script src="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/main.bundle.js"></script>
+
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 2rem; }
+    #h5p-container { max-width: 960px; margin: 0 auto; }
+  </style>
 </head>
 <body>
   <h1>Interactive H5P Activity</h1>
 
-  <!-- Container where the H5P content will load -->
+  <!-- Container for H5P -->
   <div id="h5p-container"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      const options = {
-        h5pJsonPath: 'h5p-folder',
-        frameJs: 'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/frame.bundle.js',
-        frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css',
-      };
-
       const el = document.getElementById('h5p-container');
-      console.log("✅ Loading H5P with options:", options);
-      new H5PStandalone.H5P(el, options);
+
+      // Path to the folder that contains h5p.json + content/ + libraries/
+      const h5pJsonPath = 'h5p-folder';
+
+      console.log('✅ Loading H5P from:', h5pJsonPath);
+      new H5PStandalone.H5P(el, h5pJsonPath);
     });
   </script>
 </body>
 </html>
+
