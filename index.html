@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My H5P Activity</title>
 
-  <!-- H5P Standalone bundle -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css">
+  <!-- Use the CDN CSS (do NOT use /styles/h5p.css) -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css">
+  <!-- Load the bundle -->
   <script src="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/main.bundle.js"></script>
 
   <style>
@@ -21,12 +23,8 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const el = document.getElementById('h5p-container');
-
-      // Absolute path to the folder that contains h5p.json + content/ + libraries/
-      const options = { h5pJsonPath: '/Test-12/h5p-folder' };
-
-      console.log('✅ Loading H5P with options:', options);
-      new H5PStandalone.H5P(el, options);
+      // Absolute path so it cannot fall back to /workspace
+      new H5PStandalone.H5P(el, { h5pJsonPath: '/Test-12/h5p-folder' });
     });
   </script>
 </body>
