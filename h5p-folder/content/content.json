@@ -1,3 +1,4 @@
+
 {
   "introduction": { "showIntroPage": false },
   "questions": [
@@ -12,13 +13,7 @@
             "params": {
               "visuals": { "fit": true, "controls": true },
               "playback": { "autoplay": false, "loop": false },
-              "sources": [
-                {
-                  "path": "videos/file-_fu8Wv14I6-OS1nZ.mp4",
-                  "mime": "video/mp4",
-                  "copyright": { "license": "U" }
-                }
-              ],
+              "sources": [{ "path": "videos/file-_fu8Wv14I6-OS1nZ.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
               "preload": "metadata"
             }
           }
@@ -42,7 +37,340 @@
           "a11yRetry": "Retry the task. Reset all responses and start the task over again."
         }
       }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "4ac7e8e6-8a91-40ab-8564-1ba3e3b1067f",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "dc6796e8-a056-4cb6-aa80-62daf107a827",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-tI67EAmejySxdo3M.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "I'll be your server.",
+        "acceptedAnswers": [
+          "I'll be your server.",
+          "I'll be your server",
+          "I will be your server",
+          "i'll be your server",
+          "i will be your server"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "b108f131-2560-44b2-8ade-a896254da3c2",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "1f06eec8-73ce-45d8-b19b-84e1ec515a68",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-gDXyNp5bNVRN4Bft.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "Would you like something to drink?",
+        "acceptedAnswers": [
+          "Would you like something to drink?",
+          "Would you like something to drink",
+          "would you like something to drink"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "7cbd7254-4bad-468b-9bae-0743f53d2f9a",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "aa64cdf5-ab9a-49a0-ad5b-a2af588994b6",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-TXoTYcAPjlglMu7Y.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "Can I start you off with a drink?",
+        "acceptedAnswers": [
+          "Can I start you off with a drink?",
+          "Can I start you off with a drink",
+          "can i start you off with a drink"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "7c4560e1-091e-486f-89b1-d3f38c2e4121",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "d2fe1248-ad18-43c3-9cfa-4947df5f891a",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-OExBvcNHM6qBhaIq.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "What would you like to drink?",
+        "acceptedAnswers": [
+          "What would you like to drink?",
+          "What would you like to drink",
+          "what would you like to drink"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "8935b8b6-890a-4af1-9210-27303678dcf1",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "079291ab-9e93-457b-8c91-8ecffbcc6555",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-rZqEanrNd5mBBkWA.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "We have a variety of drinks",
+        "acceptedAnswers": [
+          "We have a variety of drinks",
+          "We have a variety of drinks.",
+          "we have a variety of drinks"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "b8c7bf56-60b1-40c9-a8bd-d439ee45a270",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "59f8cf5b-f821-43c2-a8de-68945c2fad85",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-6kKAgGcboDiz7U49.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "May I recommend a drink?",
+        "acceptedAnswers": [
+          "May I recommend a drink?",
+          "May I recommend a drink",
+          "may i recommend a drink"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "1c78d6ca-2f5d-4d87-b026-c6bc0bbc0f2a",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "3d6675d1-0b49-48e5-a5bc-3f750bdde912",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-AoWOEHejJvFctvlF.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "Would you like to see our drinks menu?",
+        "acceptedAnswers": [
+          "Would you like to see our drinks menu?",
+          "Would you like to see our drinks menu",
+          "would you like to see our drinks menu"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
+    },
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "bd28c226-5f96-4e32-9f2e-c9d4a9a9b2e4",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "c00e3d27-8ea1-49ff-b1bf-9f625a88b9fc",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [{ "path": "videos/file-_Nzc2uf3RD2LCUGm.mp4", "mime": "video/mp4", "copyright": { "license": "U" } }],
+              "preload": "metadata"
+            }
+          }
+        },
+        "question": "Are you ready to order drinks?",
+        "acceptedAnswers": [
+          "Are you ready to order drinks?",
+          "Are you ready to order drinks",
+          "are you ready to order drinks"
+        ],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        }
+      }
     }
-  ]
+  ],
+  "overallFeedback": [{ "from": 0, "to": 100 }],
+  "l10n": {
+    "introductionButtonLabel": "Start Course!",
+    "solutionScreenResultsLabel": "Your results:",
+    "showSolutionsButtonLabel": "Show solution",
+    "retryButtonLabel": "Retry",
+    "nextQuestionAriaLabel": "Next question",
+    "previousQuestionAriaLabel": "Previous question",
+    "navigationBarTitle": "Slide :num",
+    "answeredSlideAriaLabel": "Answered",
+    "activeSlideAriaLabel": "Currently active"
+  }
 }
-
