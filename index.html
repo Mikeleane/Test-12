@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Drinks Activity — Combined Score (9)</title>
 
-  <!-- H5P CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@1.3.4/dist/styles/h5p.css">
+  <!-- Local H5P assets (no CDN) -->
+  <link rel="stylesheet" href="/Test-12/vendor/h5p/h5p.css">
+
   <style>
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding:24px}
     .wrap{max-width:980px;margin:0 auto}
@@ -31,44 +32,36 @@
     </div>
   </div>
 
+  <!-- Local H5P JS -->
+  <script src="/Test-12/vendor/h5p/main.bundle.js"></script>
   <script>
-    // Load H5P bundle with a fallback CDN; init only after it’s loaded
-    function loadScript(src){return new Promise((res,rej)=>{const s=document.createElement('script');s.src=src;s.onload=res;s.onerror=rej;document.head.appendChild(s);});}
-    (async () => {
-      try {
-        await loadScript('https://cdn.jsdelivr.net/npm/h5p-standalone@1.3.4/dist/main.bundle.js');
-      } catch {
-        await loadScript('https://unpkg.com/h5p-standalone@1.3.4/dist/main.bundle.js');
-      }
-      if (!window.H5PStandalone) { console.error('H5P bundle failed to load'); return; }
+    // Init both players using the local frame assets
+    const opts = {
+      frameJs:  '/Test-12/vendor/h5p/frame.bundle.js',
+      frameCss: '/Test-12/vendor/h5p/h5p.css'
+    };
+    new H5PStandalone.H5P(document.getElementById('h5p-part1'), { ...opts, h5pJsonPath: '/Test-12/h5p-part1' });
+    new H5PStandalone.H5P(document.getElementById('h5p-part2'), { ...opts, h5pJsonPath: '/Test-12/h5p-part2' });
 
-      const opts = {
-        frameJs:  'https://cdn.jsdelivr.net/npm/h5p-standalone@1.3.4/dist/frame.bundle.js',
-        frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@1.3.4/dist/styles/h5p.css'
-      };
-      new H5PStandalone.H5P(document.getElementById('h5p-part1'), { ...opts, h5pJsonPath: '/Test-12/h5p-part1' });
-      new H5PStandalone.H5P(document.getElementById('h5p-part2'), { ...opts, h5pJsonPath: '/Test-12/h5p-part2' });
-
-      // Combine scores from both sets
-      let totals = { part1: null, part2: null };
-      function updateUI(){
-        const s1=totals.part1?.raw??0, m1=totals.part1?.max??0;
-        const s2=totals.part2?.raw??0, m2=totals.part2?.max??0;
-        const raw=s1+s2, max=(m1+m2)||9;
-        document.getElementById('score').textContent = raw;
-        document.querySelector('#combined .muted').textContent = ` / ${max}`;
-        document.getElementById('detail').textContent =
-          (totals.part1?` (P1: ${s1}/${m1})`:'') + (totals.part2?` (P2: ${s2}/${m2})`:'');
-      }
-      H5P.externalDispatcher.on('xAPI', (evt) => {
-        const st=evt?.data?.statement; if(!st||st.verb?.id!=='http://adlnet.gov/expapi/verbs/completed') return;
-        const raw=st.result?.score?.raw??0, max=st.result?.score?.max??0, id=st.object?.id||'';
-        if (id.includes('/h5p-part1/')) totals.part1={raw,max};
-        else if (id.includes('/h5p-part2/')) totals.part2={raw,max};
-        else if (!totals.part1) totals.part1={raw,max}; else totals.part2={raw,max};
-        updateUI();
-      });
-    })();
+    // Combine scores from both sets
+    let totals = { part1: null, part2: null };
+    function updateUI(){
+      const s1=totals.part1?.raw??0, m1=totals.part1?.max??0;
+      const s2=totals.part2?.raw??0, m2=totals.part2?.max??0;
+      const raw=s1+s2, max=(m1+m2)||9;
+      document.getElementById('score').textContent = raw;
+      document.querySelector('#combined .muted').textContent = ` / ${max}`;
+      document.getElementById('detail').textContent =
+        (totals.part1?` (P1: ${s1}/${m1})`:'') + (totals.part2?` (P2: ${s2}/${m2})`:'');
+    }
+    H5P.externalDispatcher.on('xAPI', (evt) => {
+      const st=evt?.data?.statement; if(!st||st.verb?.id!=='http://adlnet.gov/expapi/verbs/completed') return;
+      const raw=st.result?.score?.raw??0, max=st.result?.score?.max??0, id=st.object?.id||'';
+      if (id.includes('/h5p-part1/')) totals.part1={raw,max};
+      else if (id.includes('/h5p-part2/')) totals.part2={raw,max};
+      else if (!totals.part1) totals.part1={raw,max}; else totals.part2={raw,max};
+      updateUI();
+    });
   </script>
 </body>
 </html>
