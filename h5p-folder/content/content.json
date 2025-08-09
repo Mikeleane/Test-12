@@ -1,44 +1,48 @@
 {
-  "title": "Speak The Words – MWE",
-  "language": "en",
-  "mainLibrary": "H5P.SpeakTheWordsSet",
-  "embedTypes": ["div"],
-  "preloadedDependencies": [
-    { "machineName": "H5P.JoubelUI", "majorVersion": 1, "minorVersion": 3 },
-    { "machineName": "H5P.Question", "majorVersion": 1, "minorVersion": 5 },
-    { "machineName": "H5P.SpeakTheWords", "majorVersion": 1, "minorVersion": 5 },
-    { "machineName": "H5P.SpeakTheWordsSet", "majorVersion": 1, "minorVersion": 3 },
-    { "machineName": "H5P.FontIcons", "majorVersion": 1, "minorVersion": 0 },
-    { "machineName": "FontAwesome", "majorVersion": 4, "minorVersion": 5 }
-  ],
-  "params": {
-    "introduction": { "showIntroPage": false },
-    "questions": [
-      {
-        "library": "H5P.SpeakTheWords 1.5",
-        "metadata": { "contentType": "Speak the Words", "license": "U", "title": "Greeting" },
-        "subContentId": "11111111-1111-1111-1111-111111111111",
-        "params": {
-          "question": "Good Afternoon",
-          "acceptedAnswers": ["Good Afternoon", "good afternoon"],
-          "inputLanguage": "en-GB",
-          "incorrectAnswerText": "Incorrect answer",
-          "correctAnswerText": "Correct answer",
-          "l10n": {
-            "retryLabel": "Retry",
-            "showSolutionLabel": "Show solution",
-            "speakLabel": "Push to speak",
-            "listeningLabel": "Listening...",
-            "correctAnswersText": "The correct answer(s):",
-            "userAnswersText": "Your answer(s) was interpreted as:",
-            "noSound": "I could not hear you, make sure your microphone is enabled",
-            "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
-            "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
-            "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
-            "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+  "introduction": { "showIntroPage": false },
+  "questions": [
+    {
+      "library": "H5P.SpeakTheWords 1.5",
+      "subContentId": "8dffff8f-719d-4036-b71f-7060f57cd77d",
+      "params": {
+        "media": {
+          "type": {
+            "library": "H5P.Video 1.6",
+            "subContentId": "d5350e9a-6555-4156-a243-6aaf8d3c1e48",
+            "params": {
+              "visuals": { "fit": true, "controls": true },
+              "playback": { "autoplay": false, "loop": false },
+              "sources": [
+                {
+                  "path": "videos/file-_fu8Wv14I6-OS1nZ.mp4",
+                  "mime": "video/mp4",
+                  "copyright": { "license": "U" }
+                }
+              ],
+              "preload": "metadata"
+            }
           }
+        },
+        "question": "Good Afternoon",
+        "acceptedAnswers": ["Good Afternoon", "good afternoon"],
+        "inputLanguage": "en-GB",
+        "incorrectAnswerText": "Incorrect answer",
+        "correctAnswerText": "Correct answer",
+        "l10n": {
+          "retryLabel": "Retry",
+          "showSolutionLabel": "Show solution",
+          "speakLabel": "Push to speak",
+          "listeningLabel": "Listening...",
+          "correctAnswersText": "The correct answer(s):",
+          "userAnswersText": "Your answer(s) was interpreted as:",
+          "noSound": "I could not hear you, make sure your microphone is enabled",
+          "unsupportedBrowserHeader": "It looks like your browser does not support speech recognition",
+          "unsupportedBrowserDetails": "Please try again in a browser like Chrome",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
         }
       }
-    ]
-  }
+    }
+  ]
 }
+
