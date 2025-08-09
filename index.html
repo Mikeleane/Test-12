@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My H5P Activity</title>
 
-  <!-- Use the CDN CSS (do NOT use /styles/h5p.css) -->
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css">
-  <!-- Load the bundle -->
+  <!-- H5P Standalone bundle -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css">
   <script src="https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/main.bundle.js"></script>
 
   <style>
@@ -23,8 +21,13 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const el = document.getElementById('h5p-container');
-      // Absolute path so it cannot fall back to /workspace
-      new H5PStandalone.H5P(el, { h5pJsonPath: '/Test-12/h5p-folder' });
+
+      // Force the bundle to use CDN assets and point at your H5P folder
+      new H5PStandalone.H5P(el, {
+        h5pJsonPath: '/Test-12/h5p-folder',
+        frameJs:  'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/frame.bundle.js',
+        frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@latest/dist/styles/h5p.css'
+      });
     });
   </script>
 </body>
